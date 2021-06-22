@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        ::::::::            */
+/*   parser.c                                           :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: zenotan <zenotan@student.codam.nl>           +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2021/06/22 17:50:21 by zenotan       #+#    #+#                 */
+/*   Updated: 2021/06/22 17:50:51 by zenotan       ########   odam.nl         */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "towers.h"
 
 int	is_val(char c)
@@ -11,7 +23,6 @@ int	is_val(char c)
 
 int	check_dim(int highest, int amount)
 {
-//	printf("dim[%i]amount[%i]\n", dim, amount);
 	if (amount / 4 < highest || amount > 36)
 		return (0);
 	return (amount / 4);

@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        ::::::::            */
+/*   towers.h                                           :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: zenotan <zenotan@student.codam.nl>           +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2021/06/22 17:50:29 by zenotan       #+#    #+#                 */
+/*   Updated: 2021/06/22 17:51:22 by zenotan       ########   odam.nl         */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef	TOWERS_H
 # define TOWERS_H
 # include <stdio.h>
@@ -9,7 +21,7 @@ typedef struct	s_data
 	char	*skyline;
 	char	**grid;
 	int		dim;
-}								t_data;
+}				t_data;
 
 //----------utils.c------------
 int ft_strlen(char *str);
