@@ -6,7 +6,7 @@
 /*   By: zenotan <zenotan@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/06/22 17:50:09 by zenotan       #+#    #+#                 */
-/*   Updated: 2021/06/22 19:49:43 by zenotan       ########   odam.nl         */
+/*   Updated: 2021/06/22 20:53:07 by zenotan       ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@ int main(int argc, char **argv)
 	data.skyline = NULL;
 	data.grid = NULL;
 	data.dim = 0;
+	printf("str[%s]\n", argv[1]);
 	if (argc != 2)
 		return (str_error("Error: arguments\n"));
 	if (!(amount = check_args(argv[1], &data)))

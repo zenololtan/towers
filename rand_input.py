@@ -6,7 +6,7 @@
 #    By: zenotan <zenotan@student.codam.nl>           +#+                      #
 #                                                    +#+                       #
 #    Created: 2021/06/22 18:08:16 by zenotan       #+#    #+#                  #
-#    Updated: 2021/06/22 19:45:49 by zenotan       ########   odam.nl          #
+#    Updated: 2021/06/23 18:49:36 by zenotan       ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,3 +27,12 @@ ran = ""
 for i in range(0, 4):
 	ran += ' ' + ' '.join(random.choices(seq, k = s))
 print(str(ran)[1:])
+
+x = range(s)
+for i in range(len(x)):
+	j =  i + int((len(x) - i)*random.random())
+	print(str(j))
+	# c = x[j]
+	# x[j] = x[i]
+	# x[i] = c
+# print(str(x))
